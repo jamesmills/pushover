@@ -1,0 +1,20 @@
+{
+    "name": "clicksco/pushover",
+    "description": "",
+    "authors": [
+        {
+            "name": "James Mills",
+            "email": "james@clicksco.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Clicksco\\Pushover": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
