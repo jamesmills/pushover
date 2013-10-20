@@ -14,10 +14,10 @@ class PushManager
     protected $message;
     protected $users = array();
 
-    public function __construct($params)
+    public function __construct($token)
     {
         $this->endpoint = 'https://api.pushover.net/1/';
-        $this->token = $params['api_token'];
+        $this->token = $token;
         $this->sound = 'cashregister';
     }
 

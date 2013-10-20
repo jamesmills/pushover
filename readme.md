@@ -1,6 +1,6 @@
 ## Requirements
 
-* A [PushOver](https://pushover.net) account
+* A [Pushover](https://pushover.net) account
 * Have installed Pushover app on your phone
 ([iPhone](http://itunes.apple.com/us/app/pushover-notifications/id506088175?mt=8) or [Android](https://play.google.com/store/apps/details?id=net.superblock.pushover&hl=fr))
 
@@ -21,9 +21,9 @@ $push_message->setTitle('This is the title');
 $push_message->setDate(new \DateTime());
 $push_message->setMessage('This is the message');
 
-$push_manager = new PushManager(\Config::get('custom.pushover.token'));
+$push_manager = new PushManager('YOUR-APP-TOKEN);
 
 $push_manager->setMessage($push_message);
-$push_manager->addUser('YOUR USER TOKEN');
+$push_manager->addUser('YOUR-USER-TOKEN');
 $this->info($push_manager->send());
 ```
