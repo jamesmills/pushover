@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jamesmills/pushover.png?branch=master)](https://travis-ci.org/jamesmills/pushover)
+
 ## Requirements
 
 * A [Pushover](https://pushover.net) account
