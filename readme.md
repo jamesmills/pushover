@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jamesmills/pushover.png?branch=master)](https://travis-ci.org/jamesmills/pushover)
+
 ## Requirements
 
 * A [Pushover](https://pushover.net) account
@@ -21,7 +23,7 @@ $push_message->setTitle('This is the title');
 $push_message->setDate(new \DateTime());
 $push_message->setMessage('This is the message');
 
-$push_manager = new PushManager('YOUR-APP-TOKEN);
+$push_manager = new PushManager('YOUR-APP-TOKEN');
 
 $push_manager->setMessage($push_message);
 $push_manager->addUser('YOUR-USER-TOKEN');
