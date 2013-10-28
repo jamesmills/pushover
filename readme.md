@@ -27,5 +27,5 @@ $push_manager = new PushManager('YOUR-APP-TOKEN');
 
 $push_manager->setMessage($push_message);
 $push_manager->addUser('YOUR-USER-TOKEN');
-$this->info($push_manager->send());
+echo $push_manager->send();
 ```
